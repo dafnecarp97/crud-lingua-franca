@@ -23,7 +23,7 @@ if (document.getElementById("app")) {
                     })
             },
             eliminar(producto) {
-                const url = 'https://dafnecarp.pythonanywhere.com/productos' + producto;
+                const url = 'https://dafnecarp.pythonanywhere.com/productos/' + producto;
                 var options = {
                     method: 'DELETE',
                 }
